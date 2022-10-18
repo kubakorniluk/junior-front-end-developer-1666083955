@@ -1,0 +1,29 @@
+.task {
+    margin: 0;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.task:hover {
+    cursor: pointer;
+}
+.task:last-of-type {
+    padding-bottom: 0;
+}
+.task-icon {
+    margin-right: 1em;
+    font-size: 80%;
+}
+.task-title {
+    margin: 0;
+    padding: 0;
+    font-size: 80%;
+    font-weight: 400;
+    color: #000000;
+}
+.task:hover .task-title {
+    text-decoration: underline;
+    transition: .5s;
+}

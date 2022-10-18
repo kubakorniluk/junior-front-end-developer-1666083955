@@ -1,0 +1,138 @@
+[
+    {   
+        "id": 1,
+        "title": "Style the task-list",
+        "status": "done",
+        "businessContext": [
+            {
+                "author": "John Doe",
+                "title": "Write some css",
+                "description": "lorem ipsum"
+            }, 
+            {
+                "author": "John Doe",
+                "title": "Code new component",
+                "description": "lorem ipsum"
+            }
+        ]
+    },
+    {   
+        "id": 2,
+        "title": "Do other tasks",
+        "status": "done",
+        "businessContext": [
+            {
+                "author": "John Doe",
+                "title": "Write some css",
+                "description": "lorem ipsum"
+            }, 
+            {
+                "author": "John Doe",
+                "title": "Code new component",
+                "description": "lorem ipsum"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Code business context tab",
+        "status": "active",
+        "businessContext": [
+            {
+                "author": "John Doe",
+                "title": "Write some css",
+                "description": "lorem ipsum"
+            }, 
+            {
+                "author": "John Doe",
+                "title": "Code new component",
+                "description": "lorem ipsum"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Code smth else",
+        "status": "blocked",
+        "businessContext": [
+            {
+                "author": "John Doe",
+                "title": "Write some css",
+                "description": "lorem ipsum"
+            }, 
+            { 
+                "author": "John Doe",
+                "title": "Code new component",
+                "description": "lorem ipsum"
+            }
+        ]
+    },
+    {   
+        "id": 5,
+        "title": "RWD",
+        "status": "blocked",
+        "businessContext": [
+            {
+                "author": "John Doe",
+                "title": "Write some css",
+                "description": "lorem ipsum"
+            }, 
+            {
+                "author": "John Doe",
+                "title": "Code new component",
+                "description": "lorem ipsum"
+            }
+        ]
+    },
+    {   
+        "id": 6,
+        "title": "Do other tasks",
+        "status": "blocked",
+        "businessContext": [
+            {
+                "author": "John Doe",
+                "title": "Write some css",
+                "description": "lorem ipsum"
+            }, 
+            {
+                "author": "John Doe",
+                "title": "Code new component",
+                "description": "lorem ipsum"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Get hired",
+        "status": "blocked",
+        "businessContext": [
+            {
+                "author": "John Doe",
+                "title": "Write some css",
+                "description": "lorem ipsum"
+            }, 
+            {
+                "author": "John Doe",
+                "title": "Code new component",
+                "description": "lorem ipsum"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Start working ASAP",
+        "status": "blocked",
+        "businessContext": [
+            {
+                "author": "John Doe",
+                "title": "Write some css",
+                "description": "lorem ipsum"
+            }, 
+            { 
+                "author": "John Doe",
+                "title": "Code new component",
+                "description": "lorem ipsum"
+            }
+        ]
+    }
+]
