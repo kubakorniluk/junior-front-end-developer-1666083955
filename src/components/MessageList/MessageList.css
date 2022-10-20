@@ -1,0 +1,12 @@
+.messages {
+    height: 100%;
+    width: 33.3%;
+    padding: 1em;
+    background-color: #ebebeb;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    overflow: scroll;
+    overflow-x: hidden;
+}

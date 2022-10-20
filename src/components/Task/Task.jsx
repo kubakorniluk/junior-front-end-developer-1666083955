@@ -1,7 +1,11 @@
+import { useContext } from 'react';
+import { TaskContext } from '../TaskContextProvider/TaskContextProvider';
 import './Task.css';
-const Task = (props) => {
+
+const Task = ({ data }) => {
+    const { id, status, title } = data;
     
-    const { status, title, businessContext } = props.data;
+    const { handleTask } = useContext(TaskContext);
 
     //decide which styling to use based on task status
     const handleStatus = () => {
@@ -9,7 +13,6 @@ const Task = (props) => {
             case 'done':
                 return {
                     content: '✔',
-                    marginRight: '1em',
                     color: '#3BFFAC'
                 };
                 break;
@@ -34,10 +37,9 @@ const Task = (props) => {
         }
     }
     
-    let ifBlockedChangeTitleColor = status === 'blocked' ? {color: '#aeaeae'} : {color: '#000000'} 
-
+    let ifBlockedChangeTitleColor = ( status === 'blocked' ) ? {color: '#aeaeae'} : {color: '#000000'} 
     return ( 
-        <li className="task"> 
+        <li className="task" onClick={ ( status !== 'blocked' ) ? () => handleTask(id) : null }> 
             <span 
                 className="task-icon"
                 style={{color: handleStatus().color}}
