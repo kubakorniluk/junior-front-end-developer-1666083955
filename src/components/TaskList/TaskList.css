@@ -6,12 +6,7 @@
     width: auto;
     min-width: 25%;
     background-color: #ffffff;
-}
-.task-tab-title {
-    width: 100%;
-    font-weight: 900;
-    font-size: 100%;
-    margin: 0 0 1em 0;
+    border-radius: 5px;
 }
 .task-list {
     display: flex;
@@ -22,5 +17,4 @@
     width: 100%;
     overflow: scroll;
     overflow-x: hidden;
-    height: 50vh
 }

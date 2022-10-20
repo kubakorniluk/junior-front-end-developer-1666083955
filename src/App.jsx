@@ -1,12 +1,17 @@
-import './App.css';
+import TaskContextProvider from './components/TaskContextProvider/TaskContextProvider';
 import Main from './components/Main/Main';
 import TaskList from './components/TaskList/TaskList';
+import ContextTab from './components/ContextTab/ContextTab';
+import './App.css';
 
 const App = () => {
   return (
-    <Main>
-      <TaskList />
-    </Main>
+    <TaskContextProvider>
+      <Main>
+        <TaskList />
+        <ContextTab />
+      </Main>
+    </TaskContextProvider>
   );
 }
 

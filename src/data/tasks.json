@@ -5,14 +5,20 @@
         "status": "done",
         "businessContext": [
             {
+                "id": 1,
                 "author": "John Doe",
                 "title": "Write some css",
-                "description": "lorem ipsum"
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "created_at": "15 Sep 2022",
+                "newTask": true
             }, 
             {
+                "id": 2,
                 "author": "John Doe",
                 "title": "Code new component",
-                "description": "lorem ipsum"
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "created_at": "17 Sep 2022",
+                "newTask": false
             }
         ]
     },
@@ -22,14 +28,12 @@
         "status": "done",
         "businessContext": [
             {
+                "id": 1,
                 "author": "John Doe",
-                "title": "Write some css",
-                "description": "lorem ipsum"
-            }, 
-            {
-                "author": "John Doe",
-                "title": "Code new component",
-                "description": "lorem ipsum"
+                "title": "Do some code idk",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "created_at": "17 Sep 2022",
+                "newTask": false
             }
         ]
     },
@@ -39,99 +43,66 @@
         "status": "active",
         "businessContext": [
             {
+                "id": 1,
                 "author": "John Doe",
-                "title": "Write some css",
-                "description": "lorem ipsum"
+                "title": "Style business context",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "created_at": "13 Oct 2022",
+                "newTask": false
             }, 
             {
+                "id": 2,
                 "author": "John Doe",
                 "title": "Code new component",
-                "description": "lorem ipsum"
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "created_at": "13 Oct 2022",
+                "newTask": true
             }
         ]
     },
     {
         "id": 4,
-        "title": "Code smth else",
-        "status": "blocked",
-        "businessContext": [
-            {
-                "author": "John Doe",
-                "title": "Write some css",
-                "description": "lorem ipsum"
-            }, 
-            { 
-                "author": "John Doe",
-                "title": "Code new component",
-                "description": "lorem ipsum"
-            }
-        ]
-    },
-    {   
-        "id": 5,
-        "title": "RWD",
-        "status": "blocked",
-        "businessContext": [
-            {
-                "author": "John Doe",
-                "title": "Write some css",
-                "description": "lorem ipsum"
-            }, 
-            {
-                "author": "John Doe",
-                "title": "Code new component",
-                "description": "lorem ipsum"
-            }
-        ]
-    },
-    {   
-        "id": 6,
-        "title": "Do other tasks",
-        "status": "blocked",
-        "businessContext": [
-            {
-                "author": "John Doe",
-                "title": "Write some css",
-                "description": "lorem ipsum"
-            }, 
-            {
-                "author": "John Doe",
-                "title": "Code new component",
-                "description": "lorem ipsum"
-            }
-        ]
-    },
-    {
-        "id": 7,
         "title": "Get hired",
         "status": "blocked",
         "businessContext": [
             {
+                "id": 1,
                 "author": "John Doe",
-                "title": "Write some css",
-                "description": "lorem ipsum"
+                "title": "Pass through technical interview",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "created_at": "25 Oct 2022",
+                "newTask": false
             }, 
             {
+                "id": 2,
                 "author": "John Doe",
-                "title": "Code new component",
-                "description": "lorem ipsum"
+                "title": "Meet your colleagues",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "created_at": "26 Oct 2022",
+                "newTask": true
             }
         ]
     },
     {
-        "id": 8,
+        "id": 5,
         "title": "Start working ASAP",
         "status": "blocked",
         "businessContext": [
             {
+                "id": 1,
                 "author": "John Doe",
-                "title": "Write some css",
-                "description": "lorem ipsum"
+                "title": "Setup your workstation",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "created_at": "30 Dec 2022",
+                "newTask": false
             }, 
             { 
+                "id": 2,
                 "author": "John Doe",
-                "title": "Code new component",
-                "description": "lorem ipsum"
+                "title": "Do your job",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.m",
+                "created_at": "30 Dec 2022",
+                "newTask": false
             }
         ]
     }

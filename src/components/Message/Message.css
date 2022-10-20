@@ -1,0 +1,60 @@
+.card {
+    background-color: white;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: .75em;
+    border-radius: 5px;
+} .card:hover {
+    background-color: #584cea;
+    cursor: pointer;
+    color: white;
+
+}
+.card-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-author {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.card-author, 
+.card-date, 
+.card-title, 
+.card-description {
+    margin: 0;
+    padding: 0;
+}
+.card-author, .card-date {
+    font-size: 80%;
+    font-weight: 400;
+} 
+.card-date { color: #aeaeae }
+.card-title { font-size: 100%; font-weight: 900; }
+.card-description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;   
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 80%;
+    font-weight: 400;
+}
+.card-new {
+    background-color: #584cea;
+    padding: .5em 1em;
+    text-align: center;
+    margin-right: .5em;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 80%;
+}
+.card:hover .card-new {
+    background-color: #ffffff;
+    color: #000000;
+}
