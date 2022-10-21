@@ -9,9 +9,6 @@
 .task:hover {
     cursor: pointer;
 }
-.task:last-of-type {
-    padding-bottom: 0;
-}
 .task-icon {
     margin-right: 1em;
     font-size: 80%;
@@ -26,4 +23,21 @@
 .task:hover .task-title {
     text-decoration: underline;
     transition: .5s;
+}
+.task-active {
+    text-decoration: underline;
+}
+.task-blocked .task-title{
+    color: #aeaeae;
+}
+.task-blocked:hover .task-title {
+    text-decoration: none;
+}
+.task-blocked:hover {
+    cursor: default;
+}
+@media only screen and (max-width: 768.99px) {
+    .task {
+        padding: .75em 1em;
+    }
 }

@@ -1,0 +1,11 @@
+body {
+    background-color: #ebebeb;
+    font-family: 'Poppins', sans-serif;
+    padding: 1em 1.5em;
+    margin: 0;
+}
+@media only screen and (max-width: 768.99px) {
+    body {
+        padding: 1em;
+    }
+}

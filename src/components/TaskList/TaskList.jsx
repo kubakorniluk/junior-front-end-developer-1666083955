@@ -5,9 +5,7 @@ import Task from '../Task/Task';
 import './TaskList.css';
 
 const TaskList = () => {
-    
     const { tasks } = useContext(TaskContext);
-    
     return (
         <aside className="task-tab">
             <TabTitle>Your tasks</TabTitle>

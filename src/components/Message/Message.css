@@ -1,15 +1,26 @@
 .card {
-    background-color: white;
     padding: 1em;
     display: flex;
     flex-direction: column;
     gap: .75em;
     border-radius: 5px;
-} .card:hover {
-    background-color: #584cea;
+}
+.card-read {
+    background-color: transparent;
+}
+.card-unread {
+    background-color: #ffffff;
+}
+.card-active {
+    background-color: #ffffff;
+    box-shadow: 5px 5px 15px #aeaeae;
+}
+.card:hover, 
+.card-read:hover, 
+.card-unread:hover {
     cursor: pointer;
-    color: white;
-
+    box-shadow: 5px 5px 15px #aeaeae;
+    background-color: #ffffff;
 }
 .card-heading {
     display: flex;
@@ -20,8 +31,9 @@
 .card-author {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
+    gap: .5em;
 }
 .card-author, 
 .card-date, 
@@ -34,8 +46,8 @@
     font-size: 80%;
     font-weight: 400;
 } 
-.card-date { color: #aeaeae }
-.card-title { font-size: 100%; font-weight: 900; }
+.card-date { color: #aeaeae; }
+.card-title { font-size: 100%; font-weight: 700; }
 .card-description {
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -45,16 +57,17 @@
     font-size: 80%;
     font-weight: 400;
 }
+.card-avatar {
+    width: 2em;
+    height: 2em;
+    padding: 0;
+    margin: 0;
+}
 .card-new {
     background-color: #584cea;
     padding: .5em 1em;
     text-align: center;
-    margin-right: .5em;
     border-radius: 5px;
     color: #ffffff;
     font-size: 80%;
-}
-.card:hover .card-new {
-    background-color: #ffffff;
-    color: #000000;
 }
