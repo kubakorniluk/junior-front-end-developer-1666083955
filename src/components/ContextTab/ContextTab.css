@@ -4,6 +4,7 @@
     padding: 2em;
     margin: 0;
     width: 75%;
+    height: 100%;
     background-color: #ffffff;
     border-radius: 5px;
 }
@@ -12,4 +13,15 @@
     flex-direction: row;
     gap: 1em;
     justify-content: space-between;
+    height: 100%;
+}
+@media only screen and (max-width: 768.99px) {
+    .business-tab {
+        padding: 1.5em;
+        width: 100%;
+    }
+    .tab-content {
+        flex-direction: column;
+        gap: 2em;
+    }
 }

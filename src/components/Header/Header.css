@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0 0 1em 0;
+    padding: 0;
+    font-size: 125%;
+}
+.header h2 {
+    margin: 0;
+}

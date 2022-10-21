@@ -10,3 +10,9 @@
     overflow: scroll;
     overflow-x: hidden;
 }
+@media only screen and (max-width: 768.99px) {
+    .messages {
+        width: 100%;
+        height: 30vh;
+    }
+}
